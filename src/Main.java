@@ -19,14 +19,14 @@ public class Main {
             a--;
         System.out.print(a);}
         System.out.println();
-        int Y = 12000000;
+        int y = 12000000;
         int birth = 17;
         int mortality = 8;
         int on = 1000;
         int year = 1;
         while (year <= 10) {
-            Y = (birth - mortality) * on + Y;
-            System.out.println("Год " + year + ", численность населения составляет " + Y);
+            y = (birth - mortality) * on + y;
+            System.out.println("Год " + year + ", численность населения составляет " + y);
             year++;
         }
 System.out.println();
